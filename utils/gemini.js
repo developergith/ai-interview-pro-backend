@@ -29,5 +29,5 @@ export async function generateInterviewQuestions(role, experienceLevel, techStac
     questions = [...questions, ...questions];
   }
 
-  return questions.slice(0, 50); // ✅ RETURN ARRAY NOT STRING
+  return questions.slice(0, 50);
 }
